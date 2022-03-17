@@ -1,0 +1,30 @@
+.container {display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+    }
+    
+    button {margin: 20px;
+    height: 45px;
+    background-color: rgb(62, 104, 62);
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 4px;}
+    
+    .output {
+    font-size: 17px;
+    text-align: center;
+    }
+    
+    .input {
+        height: 40px;
+        border: solid 1px black;
+    }
+    
+    img { width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
